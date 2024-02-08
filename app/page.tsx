@@ -5,7 +5,7 @@ import { ArrowRight, ArrowRightSquareIcon, Minus } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="text-center hidden md:flex flex-col relative">
+    <div className="text-center flex flex-col relative">
       <h1 className="text-5xl md:text-[150px] mt-20 md:mt-36 hero_main_heading">
         Welcome to the{" "}
         <span className="bg-gradient-to-r dark:from-[#ffddb7] dark:to-[#b1c5ff] from-[#fcc688] to-[#81a1fc] text-transparent bg-clip-text">

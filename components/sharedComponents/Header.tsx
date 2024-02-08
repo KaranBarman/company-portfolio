@@ -8,7 +8,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="flex justify-between">
+    <header className="hidden md:flex justify-between">
       <div className="text-xl font-semibold flex gap-1 items-center">
         <SunIcon /> Durga Digitals
       </div>
