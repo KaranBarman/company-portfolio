@@ -8,11 +8,11 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="hidden md:flex justify-between">
+    <header className="flex justify-between">
       <div className="text-xl font-semibold flex gap-1 items-center">
         <SunIcon /> Durga Digitals
       </div>
-      <ul className="flex gap-8">
+      <ul className="hidden md:flex gap-8">
         <Link href={"/"} className="">
           Home
         </Link>
