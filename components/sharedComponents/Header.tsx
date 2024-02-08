@@ -9,7 +9,7 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <header className="flex justify-between">
-      <div className="text-xl font-semibold flex gap-1 items-center">
+      <div className="text-sm md:text-xl font-semibold flex gap-1 items-center">
         <SunIcon /> Durga Digitals
       </div>
       <ul className="hidden md:flex gap-8">
