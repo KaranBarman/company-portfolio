@@ -10,7 +10,7 @@ const Header = (props: Props) => {
   return (
     <header className="flex justify-between">
       <div className="text-sm md:text-xl font-semibold flex gap-1 items-center">
-        <SunIcon /> Durga Digitals
+        <SunIcon className="h-2 w-2 md:h-4 md:w-4" /> Durga Digitals
       </div>
       <ul className="hidden md:flex gap-8">
         <Link href={"/"} className="">
