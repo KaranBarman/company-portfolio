@@ -1,3 +1,4 @@
+import { CarouselSize } from "@/components/clients";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ArrowRightSquareIcon, Minus } from "lucide-react";
@@ -19,7 +20,7 @@ export default function Home() {
         </span>{" "}
         Solutions.
       </h2>
-      <div className="pt-72 hero_main_heading max-w-[550px] flex flex-col gap-8 mx-auto">
+      <div className="pt-72 hero_main_heading max-w-[480px] flex flex-col gap-8 mx-auto">
         <h3 className="text-3xl md:text-[50px] leading-tight max-w-5xl mx-auto">
           The Durga Digital era
         </h3>
@@ -32,8 +33,18 @@ export default function Home() {
           className="rounded-full text-xl w-fit mx-auto flex gap-2 py-2"
           size={"lg"}
         >
-          Read the blog post <ArrowRight />
+          Contact us <ArrowRight />
         </Button>
+      </div>
+      <div className="pt-36 hero_main_heading max-w-[480px] flex flex-col gap-8 mx-auto">
+        <h3 className="text-3xl md:text-[50px] leading-tight max-w-5xl mx-auto">
+          Our Esteemed Clients
+        </h3>
+        <p className="text-muted-foreground text-lg">
+          Discover the Companies Who Trust Us to Deliver Exceptional Results and
+          Service Excellence.
+        </p>
+        <CarouselSize />
       </div>
     </div>
   );
