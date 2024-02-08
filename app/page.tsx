@@ -6,21 +6,21 @@ import { ArrowRight, ArrowRightSquareIcon, Minus } from "lucide-react";
 export default function Home() {
   return (
     <div className="text-center flex flex-col relative">
-      <h1 className="text-5xl md:text-[150px] mt-36 hero_main_heading">
+      <h1 className="text-5xl md:text-[150px] mt-20 md:mt-36 hero_main_heading">
         Welcome to the{" "}
         <span className="bg-gradient-to-r dark:from-[#ffddb7] dark:to-[#b1c5ff] from-[#fcc688] to-[#81a1fc] text-transparent bg-clip-text">
           Durga Digital
         </span>{" "}
         era
       </h1>
-      <h2 className="pt-80 text-3xl md:text-[50px] leading-tight max-w-5xl mx-auto hero_main_heading">
+      <h2 className="pt-40 md:pt-80 text-3xl md:text-[50px] leading-tight max-w-5xl mx-auto hero_main_heading">
         Durga Digitals - Your Premier Jaipur Hub for Expert{" "}
         <span className="bg-gradient-to-r dark:from-[#ffddb7] dark:to-[#b1c5ff] from-[#fcc688] to-[#81a1fc] text-transparent bg-clip-text">
           Social Media Marketing and Dynamic Web Development
         </span>{" "}
         Solutions.
       </h2>
-      <div className="pt-72 hero_main_heading max-w-[480px] flex flex-col gap-8 mx-auto">
+      <div className="pt-32 md:pt-72 hero_main_heading max-w-[480px] flex flex-col gap-8 mx-auto">
         <h3 className="text-3xl md:text-[50px] leading-tight max-w-5xl mx-auto">
           The Durga Digital era
         </h3>
